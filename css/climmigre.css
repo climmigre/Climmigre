@@ -1,0 +1,126 @@
+h1 {
+ color: white;
+ margin-left: 2rem;
+
+}
+
+.home_title {
+
+	margin-left: 2rem;
+}
+
+nav {
+
+	margin-left: 2rem;
+}
+
+.top-nav {
+
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+    max-width: 120rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem ;
+   
+
+}
+
+.top-nav-title a {
+    font-size: 2.4rem;
+    color: #d33c43;
+}
+.top-nav-title span {
+    color: #404041;
+}
+.top-nav-links a {
+    margin: 0 0.5rem;
+}
+.top-nav-title a,
+.top-nav-links a {
+    font-weight: bold;
+}
+
+.top-nav-item {
+    padding: 1rem 2rem;
+    border-radius: 0.25rem;
+    border: 1px dashed purple;
+}
+
+.wrapper-item {
+	margin-bottom: 20px;
+	display: inline-block;
+	text-align: left;
+	background: purple;
+	width: 100%;
+	opacity: 0.3;
+}
+
+
+.content {
+
+
+    margin-left: 2rem;
+	width: 90%;
+    margin-right: 2rem;
+	padding: 2rem;
+	background: #ffffff;
+	border-radius: 0.4rem;
+	box-shadow: 0 7px 14px 0 rgba(60, 66, 87, 0.1),
+        0 3px 6px 0 rgba(0, 0, 0, 0.07);
+
+}
+
+.clim_logo {
+
+	width: 40%;
+	float: left;
+	
+}
+
+.title {
+
+	color: white;
+}
+
+.credits {
+
+	color: white;
+	text-align: center;
+}
+
+.home {
+
+    display: block;
+    float: left;
+    width: 800px;
+    margin-left: 2rem;
+    margin-right: 5%;
+    top: 25%;
+    padding-right: 5px;
+    padding-left: 5px;
+    padding-top: 5px;
+    padding-bottom:5px;
+    line-height: 2;
+    border-radius: 10px;
+    border: 2px solid purple;
+    opacity: 0.7;
+    text-align: justify;
+
+
+}
+
+#mapBox{
+    padding: 0;
+    margin: 0;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border-radius: 5px;
+    margin-left: 2rem;
+    
+}
+
+footer {
+
+    margin-top: 2rem;
+}
