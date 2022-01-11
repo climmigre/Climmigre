@@ -1,0 +1,456 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            79.87193373357505,
+            22.546127502350828
+          ],
+          [
+            53.80225054531923,
+            23.72602962811161
+          ]
+        ]
+      },
+      "properties": {
+        "description": "flux migratoire de l'Inde vers les Émirats Arabes Unis"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            123.11521958126856,
+            12.37319808274272
+          ],
+          [
+            138.5056029133088,
+            36.9414496174369        ]
+        ]
+      },
+      "properties": {
+        "description": "flux migratoire des Phillipines vers le Japon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            89.93326679929638,
+            24.225927006716514
+          ],
+          [
+           79.87193373357505,
+            22.546127502350828       ]
+        ]
+      },
+      "properties": {
+        "description": "flux migratoire du Bandgladesh vers l'Inde"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            103.50724510770407,
+            34.40945451749223
+          ],
+          [
+           3.2628771564311903,
+           46.59543615511063    ]
+        ]
+      },
+      "properties": {
+        "description": "flux migratoire de la Chine vers la France"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            53.760356036488744,
+            32.196699574763485
+          ],
+          [
+          35.39121663768879,
+          39.081192915116254  ]
+        ]
+      },
+      "properties": {
+        "description": "flux migratoire de l'Iran vers la Turquie"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            121.81345197019937,
+            -4.863191222886809
+          ],
+          [
+          44.519118378847025,
+          23.351722394657997 ]
+        ]
+      },
+      "properties": {
+        "description": "flux migratoire de l'Indonésie vers l'Arabie Saoudite"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            96.32676088599797,
+            21.747995248284994
+          ],
+          [
+          100.78632017265946,
+          16.115098642004487]
+        ]
+      },
+      "properties": {
+        "description": "flux migratoire du Myanmar vers la Thaïlande"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+           139.82396220030404,
+            36.16482950458029
+          ],
+          [
+          258.1516023029926,
+          40.07521289440345]
+        ]
+      },
+      "properties": {
+        "description": "flux migratoire du Japon vers les États-Unis"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            84.03892845655578,
+            28.214538695493502
+          ],
+          [
+            79.25669939964394,
+            22.46493040955534]
+        ]
+      },
+      "properties": {
+        "description": "flux migratoire du Nepal vers l'Inde"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            63.9778394328836,
+            33.79758919180189
+          ],
+          [
+           54.33164506085333,
+           32.30819385698296]
+        ]
+      },
+      "properties": {
+        "description": "flux migratoire de l'Afghanistan vers l'Iran"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+           102.52387488752133,
+           19.653589597974765
+          ],
+          [
+           258.88793044559357,
+           40.477539846778605]
+        ]
+      },
+      "properties": {
+        "description": "flux migratoire du Laos vers les États-Unis"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            68.80578263505606,
+            30.049066731580055
+          ],
+          [
+            54.81504346608491,
+            31.786718952844293]
+        ]
+      },
+      "properties": {
+        "description": "flux migratoire du Pakistan vers l'Iran"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.80253544188452,
+            14.333364410307398
+          ],
+          [
+            258.59105539865767,
+            40.00792578623306]
+        ]
+      },
+      "properties": {
+        "description": "flux migratoire du Vietnam vers les États-Unis"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            80.6582180049666,
+            7.6448932860580365
+          ],
+          [
+            45.04646209364511,
+            23.8751741751961]
+        ]
+      },
+      "properties": {
+        "description": "flux migratoire du Sri-Lanka vers l'Arabie Saoudite"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+           105.1837094468741,
+           12.836824291720031
+          ],
+          [
+            258.97582106472659,
+            39.87315242654254]
+        ]
+      },
+      "properties": {
+        "description": "flux migratoire du Cambodge vers les États-Unis"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+             -55.76363054168225,
+             -8.69996660997867
+          ],
+          [
+            -101.97582106472659,
+            39.87315242654254]
+        ]
+      },
+      "properties": {
+        "description": "flux migratoire du Brésil vers les États-Unis"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+             -55.76363054168225,
+             -8.69996660997867
+          ],
+          [
+            -64.8846829570386,
+            -35.06053748076225]
+        ]
+      },
+      "properties": {
+        "description": "flux migratoire du Brésil vers l'Argentine"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+             -79.02980767206674,
+             21.65935799218709
+          ],
+          [
+            -101.97582106472659,
+            39.87315242654254]
+        ]
+      },
+      "properties": {
+        "description": "flux migratoire du Cuba vers les États-Unis"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+             -119.51532299488834,
+             36.56903904087581
+          ],
+          [
+            -79.04192891423055,
+            37.038995771868876]
+        ]
+      },
+      "properties": {
+        "description": "flux migratoire de la Californie vers l'Est des États-Unis"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+             -72.57545252195264,
+             18.85982829460938
+          ],
+          [
+            -70.22433417177795,
+            18.931776915738666]
+        ]
+      },
+      "properties": {
+        "description": "flux migratoire de Haïti vers la République Dominicaine"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+             -103.35251547903252,
+             24.09779373089975
+          ],
+          [
+            -99.77855558640123,
+            39.19531023647962]
+        ]
+      },
+      "properties": {
+        "description": "flux migratoire du Mexique vers les États-Unis"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+             -75.02378300580354,
+             -10.515842723175725
+          ],
+          [
+            -66.20304224403381,
+            -35.276079386285794]
+        ]
+      },
+      "properties": {
+        "description": "flux migratoire du Pérou vers l'Argentine"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+             -75.02378300580354,
+             -10.515842723175725
+          ],
+          [
+            -69.98359735196706,
+            -27.03325639413073]
+        ]
+      },
+      "properties": {
+        "description": "flux migratoire du Pérou vers le Chili"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+             -66.64354972682779,
+             18.21023954817752
+          ],
+          [
+            -102.23949292212562,
+            39.670494949483505]
+        ]
+      },
+      "properties": {
+        "description": "flux migratoire du Porto-Rico vers les États-Unis"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+             -115.34903880742883,
+             56.31894060134564
+          ],
+          [
+            -75.67577970709064,
+            45.459838108922185]
+        ]
+      },
+      "properties": {
+        "description": "flux migratoire de la province de l'Alberta vers Ottawa"
+      }
+    }
+  ]
+}
