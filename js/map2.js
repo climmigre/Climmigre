@@ -31,7 +31,7 @@ mymap.addControl(new L.Control.Fullscreen({
 }));
 
 
-$.getJSON("/Climmigre/download/fluxMigratoire.geojson",function(data){
+$.getJSON("/../download/fluxMigratoire.geojson",function(data){
 // add GeoJSON layer to the map once the file is loaded
 var datalayer = L.geoJson(data ,{
 onEachFeature: function(feature, featureLayer) {
