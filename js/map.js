@@ -33,7 +33,7 @@ mymap.addControl(new L.Control.Fullscreen({
 //file : https://data.opendatasoft.com/explore/dataset/natural-earth-countries-1_110m%40public/map/?location=2,-7.15664,0.06147&basemap=jawg.streets
 
 
-$.getJSON("/../download/test9.geojson",function(data){
+$.getJSON("/Climmigre/download/test9.geojson",function(data){
 // add GeoJSON layer to the map once the file is loaded
 var datalayer = L.geoJson(data ,{
 onEachFeature: function(feature, featureLayer) {
