@@ -19,7 +19,7 @@ nav {
     display:flex;
     align-items: center;
     justify-content: space-around;
-    max-width: 120rem;
+    max-width: 135rem;
     margin-top: 2rem;
     margin-bottom: 2rem ;
    
@@ -124,3 +124,12 @@ footer {
 
     margin-top: 2rem;
 }
+
+.contentDroit {
+
+    margin-left: 15%;
+    width: 80%;
+}
+
+
+

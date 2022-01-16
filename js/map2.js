@@ -31,7 +31,7 @@ mymap.addControl(new L.Control.Fullscreen({
 }));
 
 
-$.getJSON("/Climmigre/download/fluxMigratoire.geojson",function(data){
+$.getJSON("/climmigre/download/fluxMigratoire.geojson",function(data){
 // add GeoJSON layer to the map once the file is loaded
 var datalayer = L.geoJson(data ,{
 onEachFeature: function(feature, featureLayer) {
@@ -45,14 +45,3 @@ featureLayer.bindPopup(legende);}
 mymap.fitBounds(datalayer.getBounds());
 });
 
-// var latlngs = [
-//     [37.12230792103125, 138.9323842017229],
-//     [39.87315242654254, -101.88793044559357]
-    
-    
-// ];
-
-// var polyline = new L.Geodesic(latlngs, {color: 'red'}).addTo(mymap);
-
-// // zoom the map to the polyline
-// mymap.fitBounds(polyline.getBounds());
