@@ -17,7 +17,7 @@
         ]
       },
       "properties": {
-        "description": "flux migratoire de l'Inde vers les Émirats Arabes Unis"
+        "description": "Flux migratoire de l'Inde vers les Émirats Arabes Unis"
       }
     },
     {
@@ -35,7 +35,7 @@
         ]
       },
       "properties": {
-        "description": "flux migratoire des Phillipines vers le Japon"
+        "description": "Flux migratoire des Phillipines vers le Japon"
       }
     },
     {
@@ -53,7 +53,7 @@
         ]
       },
       "properties": {
-        "description": "flux migratoire du Bandgladesh vers l'Inde"
+        "description": "Flux migratoire du Bandgladesh vers l'Inde"
       }
     },
     {
@@ -71,7 +71,7 @@
         ]
       },
       "properties": {
-        "description": "flux migratoire de la Chine vers la France"
+        "description": "Flux migratoire de la Chine vers la France"
       }
     },
     {
@@ -89,7 +89,7 @@
         ]
       },
       "properties": {
-        "description": "flux migratoire de l'Iran vers la Turquie"
+        "description": "Flux migratoire de l'Iran vers la Turquie"
       }
     },
     {
@@ -107,7 +107,7 @@
         ]
       },
       "properties": {
-        "description": "flux migratoire de l'Indonésie vers l'Arabie Saoudite"
+        "description": "Flux migratoire de l'Indonésie vers l'Arabie Saoudite"
       }
     },
     {
@@ -125,7 +125,7 @@
         ]
       },
       "properties": {
-        "description": "flux migratoire du Myanmar vers la Thaïlande"
+        "description": "Flux migratoire du Myanmar vers la Thaïlande"
       }
     },
     {
@@ -143,7 +143,7 @@
         ]
       },
       "properties": {
-        "description": "flux migratoire du Japon vers les États-Unis"
+        "description": "Flux migratoire du Japon vers les États-Unis"
       }
     },
     {
@@ -161,7 +161,7 @@
         ]
       },
       "properties": {
-        "description": "flux migratoire du Nepal vers l'Inde"
+        "description": "Flux migratoire du Nepal vers l'Inde"
       }
     },
     {
@@ -179,7 +179,7 @@
         ]
       },
       "properties": {
-        "description": "flux migratoire de l'Afghanistan vers l'Iran"
+        "description": "Flux migratoire de l'Afghanistan vers l'Iran"
       }
     },
     {
@@ -197,7 +197,7 @@
         ]
       },
       "properties": {
-        "description": "flux migratoire du Laos vers les États-Unis"
+        "description": "Flux migratoire du Laos vers les États-Unis"
       }
     },
     {
@@ -215,7 +215,7 @@
         ]
       },
       "properties": {
-        "description": "flux migratoire du Pakistan vers l'Iran"
+        "description": "Flux migratoire du Pakistan vers l'Iran"
       }
     },
     {
@@ -233,7 +233,7 @@
         ]
       },
       "properties": {
-        "description": "flux migratoire du Vietnam vers les États-Unis"
+        "description": "Flux migratoire du Vietnam vers les États-Unis"
       }
     },
     {
@@ -251,7 +251,7 @@
         ]
       },
       "properties": {
-        "description": "flux migratoire du Sri-Lanka vers l'Arabie Saoudite"
+        "description": "Flux migratoire du Sri-Lanka vers l'Arabie Saoudite"
       }
     },
     {
@@ -269,7 +269,7 @@
         ]
       },
       "properties": {
-        "description": "flux migratoire du Cambodge vers les États-Unis"
+        "description": "Flux migratoire du Cambodge vers les États-Unis"
       }
     },
     {
@@ -287,7 +287,7 @@
         ]
       },
       "properties": {
-        "description": "flux migratoire du Brésil vers les États-Unis"
+        "description": "Flux migratoire du Brésil vers les États-Unis"
       }
     },
     {
@@ -305,7 +305,7 @@
         ]
       },
       "properties": {
-        "description": "flux migratoire du Brésil vers l'Argentine"
+        "description": "Flux migratoire du Brésil vers l'Argentine"
       }
     },
     {
@@ -323,7 +323,7 @@
         ]
       },
       "properties": {
-        "description": "flux migratoire du Cuba vers les États-Unis"
+        "description": "Flux migratoire du Cuba vers les États-Unis"
       }
     },
     {
@@ -341,7 +341,7 @@
         ]
       },
       "properties": {
-        "description": "flux migratoire de la Californie vers l'Est des États-Unis"
+        "description": "Flux migratoire de la Californie vers l'Est des États-Unis"
       }
     },
     {
@@ -359,7 +359,7 @@
         ]
       },
       "properties": {
-        "description": "flux migratoire de Haïti vers la République Dominicaine"
+        "description": "Flux migratoire de Haïti vers la République Dominicaine"
       }
     },
     {
@@ -377,7 +377,7 @@
         ]
       },
       "properties": {
-        "description": "flux migratoire du Mexique vers les États-Unis"
+        "description": "Flux migratoire du Mexique vers les États-Unis"
       }
     },
     {
@@ -395,7 +395,7 @@
         ]
       },
       "properties": {
-        "description": "flux migratoire du Pérou vers l'Argentine"
+        "description": "Flux migratoire du Pérou vers l'Argentine"
       }
     },
     {
@@ -413,7 +413,7 @@
         ]
       },
       "properties": {
-        "description": "flux migratoire du Pérou vers le Chili"
+        "description": "Flux migratoire du Pérou vers le Chili"
       }
     },
     {
@@ -431,7 +431,7 @@
         ]
       },
       "properties": {
-        "description": "flux migratoire du Porto-Rico vers les États-Unis"
+        "description": "Flux migratoire du Porto-Rico vers les États-Unis"
       }
     },
     {
@@ -449,7 +449,55 @@
         ]
       },
       "properties": {
-        "description": "flux migratoire de la province de l'Alberta vers Ottawa"
+        "description": "Flux migratoire de la province de l'Alberta vers Ottawa"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+              14.166172317141847,13.161242410285432
+          ],
+          [
+            19.278161587909057,16.809937755166175]
+        ]
+      },
+      "properties": {
+        "description": "Flux migratoire du Niger (Lac Tchad) et l'intérieur des terres. Novembre 2020: 900 familles quittent le lac Tchad pour aller vers l'intérieur du Niger, la cause en est l'assèchement du lac Tchad."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+              31.28251245332252, 6.838732801743175
+          ],
+          [
+            31.668411830475623,9.529099482317546]
+        ]
+      },
+      "properties": {
+        "description": "Flux migratoire entre Jonglei et Malakal au Soudan du Sud.En 2020, 700 000 personnes se sont déplacées pour fuir les inondations de la région du Jonglei, des milliers jusqu'à Malakal."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+              29.999487172886134, 0.20047618544582788
+          ],
+          [
+            30.077729218388672,0.1705023874197423]
+        ]
+      },
+      "properties": {
+        "description": "Flux migratoire entre Kilembe et Kasese en Ouganda du Sud.En mai 2020, 10 000 personnes fuient leur village détruit par une avalanche de blocs de pierre,  elle-même provoquée par la crue de la rivière."
       }
     }
   ]
