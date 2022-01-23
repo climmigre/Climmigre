@@ -132,4 +132,34 @@ footer {
 }
 
 
+#tabs ul li
+{
+    display: inline-block;
+    float: left;
+    height: 30px;
+    width: 200px;
+    min-width: 80px;
+    text-align: center;
+    font-size: 15px;
+    line-height: 30px;
+    cursor: pointer;
+    padding: 0 8px 0 8px;
+    margin: 1px;
+    margin-left: 20px;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    background: #ffffff;
+    border: 1px dashed purple;
+}
 
+.download {
+
+    box-shadow: 0 0 5px rgb(0 0 0 / 30%);
+    display: inline-block;
+    margin: 0 0 20px 0;
+    overflow: hidden;
+    width: 150px;
+    height: 150px;
+    font-size: 20px;
+    background: purple;
+}

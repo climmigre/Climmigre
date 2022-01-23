@@ -8,7 +8,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<title>Clim'migre</title>
 
-		<link rel="icon" type="image/png" href="/climmigre/download/favicon.png">
+		<link rel="icon" type="image/png" href="/Climmigre/download/favicon.png">
 
 	
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css" 
@@ -18,58 +18,85 @@
     crossorigin=""/>
 		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300italic,700,700italic">
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
-		<link rel="stylesheet" href="/climmigre/css/climmigre.css">
-		<link rel="stylesheet" href="/climmigre/css/milligram.css">
 		<link rel="stylesheet" type="text/css" href="https://api.mapbox.com/mapbox.js/plugins/leaflet-fullscreen/v1.0.1/leaflet.fullscreen.css">
-
+		<link rel="stylesheet" href="/Climmigre/css/climmigre.css">
+		<link rel="stylesheet" href="/Climmigre/css/milligram.css">
 	
 		
     <script src="https://unpkg.com/leaflet@1.6.0/dist/leaflet.js" 
 
     		integrity="sha512-gZwIG9x3wUXg2hdXF6+rVkLF/0Vi9U8D2Ntg4Ga5I5BZpVkVxlJWbSQtXPSiUTtC0TjtGOmxa1AJPuV0CPthew==" crossorigin="">
 
-
-    </script>
-    <script type="text/javascript" src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.4.1.min.js"></script>
-		<script type="text/javascript" src="https://api.mapbox.com/mapbox.js/plugins/leaflet-fullscreen/v1.0.1/Leaflet.fullscreen.min.js"></script>
+    		</script>
+    <script type="text/javascript" src="https://api.mapbox.com/mapbox.js/plugins/leaflet-fullscreen/v1.0.1/Leaflet.fullscreen.min.js"></script>
+     <script type="text/javascript" src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.4.1.min.js"></script>
+     <script src="/Climmigre/js/jquery-1.9.1.js"></script>
+     <script src="/Climmigre/js/jquery-ui-1.10.3.custom.min.js"></script>
+     <script src="/Climmigre/js/tab2.js"></script>
 
 
 	</head>
 
 		<header class="wrapper-item">
-		<h1><a href="/climmigre/index.html" class="title">Association Clim'migre</a></h1>
+		<h1><a href="/Climmigre/index.html" class="title">Association Clim'migre</a></h1>
 		</header>
 
 		<body>
 
 			<nav class="top-nav">
-				<a href="/climmigre/pages/rechauffement.html" class="top-nav-item">Le Réchauffement Climatique</a>
-				<a href="/climmigre/pages/geo.html"class="top-nav-item">Géographie</a>
-				<a href="/climmigre/pages/science.html" class="top-nav-item">Sciences de la Vie et de la Terre</a>
-				<a href="/climmigre/pages/climat.html" class="top-nav-item">Le climat et les migrants environnementaux en droit</a>
-				<a href="/climmigre/pages/biblio.html" class="top-nav-item">Bibliographie</a>
-				<a href="/climmigre/pages/glossaire.html" class="top-nav-item">Glossaire</a>
+				<a href="/Climmigre/pages/geo.html"class="top-nav-item">Géographie</a>
+				<a href="/Climmigre/pages/science.html" class="top-nav-item">Sciences de la Vie et de la Terre</a>
+				<a href="/Climmigre/pages/climat.html" class="top-nav-item">Le climat et les migrants environnementaux en droit</a>
+				<a href="/Climmigre/pages/biblio.html" class="top-nav-item">Bibliographie</a>
+				<a href="/Climmigre/pages/glossaire.html" class="top-nav-item">Glossaire</a>
 			</nav>
 			<br>
 
-			<div class='content'>
+<div class="content">
+	
+	<h2>Géographie</h2>
+</div>
 
-				<h2>Géographie</h2>
-				
-				</div>
 
-			<div id="mapBox" style="width:900px; height: 500px;"></div>
+<div id="tabs">
 
-			<script src="/climmigre/js/map2.js"></script>
 
-			</div>
+	<ul>
+		<li onClick="selView(1, this)">Flux Migratoires</li>
+		<li onClick="selView(2, this)">Export</li>
+	</ul>
+</div>
+<div id="tabcontent">
+	<div id="fluxtab" class="tabpanel" style="display:inline">
+
+<br>
+		<div class="content">
+			<p>Les migrations pour des raisons environnementales ne sont pas un phénomène nouveau mais elles s’accélèrent. Le réchauffement climatique accentue la fréquence et l’intensité des catastrophes causant des déplacements, comme les inondations et les sécheresses. Les déplacements pour des raisons climatiques sont généralement des migrations internes aux pays ou bien des migrations entre pays en voie de développement. Il faut souligner que les causes environnementales jouent rarement seules dans les migrations. Elles s’imbriquent avec des facteurs socio-culturels et des conflits forçant le départ. Par exemple, si une sécheresse réduit la surface de sol fertile disponible, cela entraîne des conflits sur le foncier.La Banque mondiale estime que si des mesures ne sont pas prises de manière urgente, 216 millions de personnes seront forcées de migrer pour des raisons climatiques d’ici 2050.</p>
+		</div><br>
+		<div id="mapBox" style="width:900px; height:500px"></div>
+
+			<script src="/Climmigre/js/map2.js"></script>
+	</div>
+	<div id="exporttab" class="tabpanel" style="display:none">
+
+		<br>
+		<div class="content">
+
+			<p><h4>Pour télécharger les données sur les flux migratoires</h4></p>
+
+		<a href="/Climmigre/download/fichiers/fluxMigratoire.zip"><button class="download">GEOJSON</button></a>
+		<a href="/Climmigre/download/fichiers/fluxMigratoireCSV.zip"><button class="download">CSV</button></a>
+	
+	</div>
+	</div>
+</div>
 
 
 		</body>
 
 	<footer class="wrapper-item">
 	
-	<p class='credits'><a href='/climmigre/pages/mentions.html'><strong>Mentions légales Clim'migre</strong></a></p>
+	<p class='credits'><a href='/Climmigre/pages/mentions.html'><strong>Mentions légales Clim'migre</strong></a></p>
 
 	</footer>
 
