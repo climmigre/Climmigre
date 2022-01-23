@@ -18,7 +18,6 @@
     crossorigin=""/>
 		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300italic,700,700italic">
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
-
 		<link rel="stylesheet" type="text/css" href="https://api.mapbox.com/mapbox.js/plugins/leaflet-fullscreen/v1.0.1/leaflet.fullscreen.css">
 		<link rel="stylesheet" href="/Climmigre/css/climmigre.css">
 		<link rel="stylesheet" href="/Climmigre/css/milligram.css">
@@ -31,9 +30,10 @@
     		</script>
     <script type="text/javascript" src="https://api.mapbox.com/mapbox.js/plugins/leaflet-fullscreen/v1.0.1/Leaflet.fullscreen.min.js"></script>
      <script type="text/javascript" src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.4.1.min.js"></script>
-
-
 	</head>
+	<script src="/Climmigre/js/jquery-1.9.1.js"></script>
+	<script src="/Climmigre/js/jquery-ui-1.10.3.custom.min.js"></script>
+	<script src="/Climmigre/js/tab.js"></script>
 
 		<header class="wrapper-item">
 		<h1><a href="/Climmigre/index.html" class="title">Association Clim'migre</a></h1>
@@ -42,7 +42,7 @@
 		<body>
 
 			<nav class="top-nav">
-				<a href="/Climmigre/pages/rechauffement.html" class="top-nav-item">Le Réchauffement Climatique</a>
+
 				<a href="/Climmigre/pages/geo.html"class="top-nav-item">Géographie</a>
 				<a href="/Climmigre/pages/science.html" class="top-nav-item">Sciences de la Vie et de la Terre</a>
 				<a href="/Climmigre/pages/climat.html" class="top-nav-item">Le climat et les migrants environnementaux en droit</a>
@@ -50,19 +50,129 @@
 				<a href="/Climmigre/pages/glossaire.html" class="top-nav-item">Glossaire</a>
 			</nav>
 			<br>
-			
 
-			<div class='content'>
+				<div class='content'>
 
 				<h2>Sciences de la Vie et de la Terre</h2>
 				
 				
 
 			</div>
+			
+
+<div id="tabs">
+
+
+	<ul>
+		<li onClick="selView(1, this)">Catastrophes Naturelles</li>
+		<li onClick="selView(2, this)">Réchauffement Climatique</li>
+		<li onClick="selView(3, this)">Export</li>
+	</ul>
+</div>
+<div id="tabcontent">
+	<div id="catatab" class="tabpanel" style="display:inline">
+
+	<br>
+			<div class="content">
+			<p>Le réchauffement climatique induit par l’augmentation des gaz à effet de serre dans l’atmosphère influent sur la nature et modifie en profondeur le climat terrestre. 
+			Les catastrophes naturelles: elles ont toujours existé mais les scientifiques prévoient désormais une fréquence accrue. Dans l’avenir, jusqu’à 6 catastrophes pourraient se produire simultanément. Parmi les principales catastrophes climatiques on trouve: les inondations, les tempêtes, les tsunamis et les températures extrêmes. Depuis l'an 2000, 7 348 désastres naturels ont été recensés dans le monde, faisant 1,23 millions de morts et affectant 4,2 milliards de personnes selon le rapport du Bureau des Nations-Unis pour la réduction des risques de catastrophes publié en 2020.</p>
+			</div>
 
 			<div id="mapBox" style="width:900px; height: 500px;"></div>
 
 			<script src="/Climmigre/js/map.js"></script>
+
+	</div>
+	<div id="pollutiontab" class="tabpanel" style="display:none">
+	<br><div class="content">
+
+	<h3>Le réchauffement climatique</h3> 
+
+
+	<p>Le réchauffement climatique est une conséquence des activités humaines qui ont déréglé le phénomène de l’effet de serre en augmentant considérablement la quantité de gaz à effet de serre (GES) dans l’atmosphère. Les principaux GES sont principalement le dioxyde de carbone (CO2) et le méthane (CH4) mais aussi la vapeur d’eau (H2O), l’ozone (O3) et le protoxyde d’azote (N2O). Les effets du réchauffement climatique poussent des millions de personnes à migrer pour trouver des moyens de subsistance et une meilleure vie.</p>
+
+	<p><strong>Comprendre le phénomène du réchauffement climatique :</strong></p> 
+
+	<p>Le principe fondamental qui explique le réchauffement climatique est un phénomène naturel appelé l’effet de serre : lorsque la terre est éclairée par le soleil, la surface terrestre émet en retour une partie du rayonnement qu’elle a reçu. Les gaz à effet de serre retiennent une partie de ces rayonnements et les renvoient à leur tour à la terre. Ceci contribue à la réchauffer.</p>
+
+	<img src="/Climmigre/download/images/effetDeSerre.png" title="Schéma explicatif du phénomène de réchauffement climatique" style="margin-left: 25%; width:500px"><p style="text-align:center; font-size:11px"><em>Schéma explicatif du phénomène de réchauffement climatique</em></p>
+
+	<p>Or, le développement des activités humaines depuis le XIXème siècle (révolution industrielle) ont déréglé l’effet de serre. Avec la combustion du gaz et du pétrole, l’utilisation du charbon, le développement de l’agriculture intensive, la déforestation, la quantité de gaz à effet de serre s’est accrue jusqu’à atteindre aujourd’hui des taux records. Ces activités ont accentué l’effet de serre. Autrement dit, l’augmentation des gaz à effet de serre dans l’atmosphère résultant en grande partie de l’Homme provoque le réchauffement climatique.</p>
+
+	<p><strong>Qui sont les plus gros pollueurs mondiaux ?</strong></p>
+
+	<p>Au-delà de la tendance globale, l’émission de gaz à effet de serre relève principalement de la responsabilité des grandes puissances économiques et industrielles. Les 4 principaux émetteurs (Chine, États-Unis, UE27 + Royaume-Uni et Inde) contribuent en effet à plus de 55 % des émissions totales au cours de la dernière décennie. Un chiffre qui monte à 65 % pour les 6 premiers émetteurs et à 78 % pour l’ensemble des pays du G20.<br>
+
+	<img src="/Climmigre/download/images/emissionsGaz.png" title="Émissions de gaz à effet de serre en 2019" style="margin-left: 25%; width:500px"><p style="text-align:center; font-size:11px"><em>Source : données du rapport PNUE de 2020</em></p>
+
+	En termes d’émissions gaz à effet de serre, la Chine occupe de loin la première place : le pays émet à lui seul plus d’un quart des émissions mondiales de GES. Cette situation s’est accrue depuis les années 2000 où le pays a connu une croissance économique importante. Cet essor s’appuie en premier lieu sur la consommation de charbon, l’énergie la plus polluante.<br>
+	Avec 13% des émissions mondiales de GES, les Etats-Unis sont les deuxièmes plus gros émetteurs de GES. Ils occupent en revanche la première place si l’on considère le taux d’émission par habitant.<br>
+	Comprenant les 27 Etats membres, l’UE est à l’origine de 9% des émissions de GES. 
+	Alors que le pays n’émet que peu d’émissions de GES par habitants, l’Inde est le quatrième pays émetteur de GES au monde. Comme la Chine, l'importante quantité de GES produite dans le pays est le fruit d’une croissance économique soutenue.<br>
+	Exploitant ses ressources en gaz et pétrole, la Russie rejette une grande quantité de CO2 dans l’air. La Russie se place donc à la cinquième place dans le classement mondial des plus gros émetteurs de GES.<br>
+	Représentant 2,7% des émissions mondiales de GES, le Japon est donc le sixième plus gros émetteur de GES.Le Japon a depuis les années 2010 connu une baisse de sa production de gaz à effet de serre en se tournant vers les énergies renouvelables et le nucléaires. 
+ 	</p>
+
+	<p><strong>Comprendre les effets du réchauffement climatique</strong></p>
+
+	<p><strong>1) L'augmentation de la température</strong></p>
+
+	<p>En retenant une partie des rayonnements du soleil, les gaz à effet de serre vont modifier la température ressentie sur terre à la hausse . L’écart de température par rapport à la moyenne de la période de référence préindustrielle 1850-1900 s’est accentué ces dernières décennies. L’année 2016 est à ce jour l’année la plus chaude depuis 1850 avec plus de 1.2 degrés par rapport à la normale . On observe une légère baisse en 2019 (deuxième année la plus chaude) qui peut s’expliquer par la faible activité humaine durant la pandémie de Covid-19.</p>
+
+	<img src="/Climmigre/download/images/temperatures.png" title="Anomalies des températures (références 1850-1900)" style="margin-left: 25%; width:500px"><p style="text-align:center; font-size:11px"><em>Anomalies des températures (références 1850-1900)</em></p>
+
+	<p><strong>2) L'élévation du niveau des océans</strong></p>
+
+	<p>Le taux moyen d’élévation du niveau des océans est aujourd’hui de 3,3mm par an. Il a déjà connu une montée de 20 cm au cours du siècle dernier. Selon les pires scénarios, il augmenterait encore de 82 cm selon le GIEC à 1m selon la NASA d’ici 2100. Ce sont les banquises aux niveaux des pôles qui en fondant sous l’effet de la chaleur produit par les gaz à effet de serre entraînent la hausse du niveau des océans. </p>
+
+	<img src="/Climmigre/download/images/glacier.png" title="Carte des changements des bilans de masse des glaciers depuis 1970 en fonction de l’amincissement ( couleurs jaune et rouge) et des l’épaissements ( couleur bleu) " style="margin-left: 25%; width:500px"><p style="text-align:center; font-size:11px"><em>Carte des changements des bilans de masse des glaciers depuis 1970 en fonction de l’amincissement ( couleurs jaune et rouge) et des l’épaissements ( couleur bleu)</em></p>
+
+	<p>D’après une enquête menée par des scientifiques de l’Institut fédéral de recherches sur la forêt, la neige et le paysage WSL, les glaciers ont perdu annuellement 227 gigatonnes entre 2000 et 2004 mais cette masse s’est élevée à 298 gigatonnes par an entre 2015 et 2019. Or, « la fonte des glaciers est à l’origine de 21 % de l’élévation du niveau des mers observée au cours de ces deux décennies, soit quelque 0,74 mm par an. ».<br>
+	Dans son dernier "rapport spécial" sur l'océan et la cryosphère (les zones glacées de la Terre), le groupe intergouvernemental d'experts sur l'évolution du climat insistait sur le fait que la fonte de l'inlandsis groenlandais est l'une des causes principales de l'élévation du niveau de la mer à l'échelle mondiale.L’inlandsis de l’Ouest-Antarctique est le plus fragile de tous. Il se trouve dans une large et profonde cuvette et s'enfonce sur plusieurs centaines de mètres sous la surface de l'eau, ce qui l'expose aux courants océaniques chauds. S'il venait à s'effondrer, le niveau de la mer augmenterait de 3 mètres selon les scientifiques.</p>
+
+	<img src="/Climmigre/download/images/monteeDesEaux.png" title="Carte du monde des zones menacées par la monté des eaux" style="margin-left: 25%; width:500px"><p style="text-align:center; font-size:11px"><em>Sources : « Ceux que la mer menace » : Climate Research, vol. 12, n°s 2-3, Inter-Research, Oldendorf/Luhe, Allemagne, 1999  et bases de donnés cartographique du Programme des Nations unies pour l’environnement</em></p>
+
+	<p><strong>Exemples de zones qui sont en danger avec l’augmentation du niveau de la mer :</strong></p>
+
+		<ul><li>Les Pays-Bas pourraient être en première ligne sur le niveau des océans devrait continuer à augmenter car  47% de la population vit dans des zones conquises sur la mer et 26% du pays se situe sous le niveau de la mer. Face à ce risque, le pays développe des digues pour se protéger et recourt de plus en plus à des projets de maisons flottantes.</li>
+		<li>Cap Canaveral en Floride ( Etats-Unis) : Face à la montée des eaux le long de la côte en Floride, la base de lancement de la Nasa et le centre spatial Kennedy sont menacés. Un rapport du centre régional de Floride sur le Climat estime que le niveau pourrait monter de plus de 60 cm d’ici à 2060. Pour y faire face, la Nasa construit des dunes artificielles pour lutter contre l’érosion.</li>
+		<li>Canton en Chine : Située sur un delta, la ville de Canton en Chine est particulièrement vulnérable à la montée des eaux alors même qu’elle abrite 12,7 millions d’habitants.</li>
+		<li>Dacca au Bangladesh :  Situé sur un immense delta qui menace aussi Calcutta (Inde), le pays est pris en étau : au Nord, l'eau provenant de la fonte des neiges et des glaciers de l'Himalaya ; au Sud, l'océan Indien. A Dacca, la capitale, plus de 11 millions de personnes pourraient être exposées à des inondations dramatiques à l'horizon 2070</li>
+		<li>Jakarta en Indonésie : La capitale de l'Indonésie s'est déjà affaissée de 4 mètres au cours des trente dernières années et voit sa population de 10 millions d'habitants de plus en plus exposée à la montée des eaux.</li>
+		<li>Abidjan au Nigéria :  Abidjan fait partie des villes les plus vulnérables face au risque de la hausse du niveau de la mer. La montée des eaux pourrait mettre en péril les plus importantes infrastructures de la capitale nigérienne, son port et son aéroport, car il se situent à quelques mètres sous le niveau de la mer.</li>
+		<li>Tuvalu, îles du Pacifique : Les habitants du Tuvalu sont aujourd’hui surnommés les « canaris du changement climatique » en référence aux petits oiseaux qui étaient placés dans les mines de charbons pour protéger les ouvriers des risques d’explosion. Ainsi, la situation de l'archipel annonce la submersion imminente qui attend les îles basses du Pacifique tout comme les autres États indépendants de Kiribati et des Maldives.</li>
+	</ul>
+
+		<p><strong>3) L’acidification des océans</strong></p> 
+
+		<p>Les océans absorbent un quart des émissions de CO2 produites par l’homme. Or, une réaction chimique transforme le CO2 en gaz carbonique. Ainsi, le pH de l’océan diminue. Autrement dit, il s’acidifie. Ce phénomène affecte directement le développement et la survie de certaines espèces de coquillages et de plancton.  Lorsque le pH est trop bas, ces espèces n’arrivent plus à structurer leur squelette calcaire. Dès lors, l’acidification des océans déstabilise la base de la chaîne alimentaire sous-marine et limite la production d’oxygène. L’acidification entraîne une perte immense de biodiversité.</p>
+
+		<img src="/Climmigre/download/images/ph.png" title="Graphique du pH des océans en fonction de l’acidité des eaux" style="margin-left: 25%; width:500px"><p style="text-align:center; font-size:11px"><em>Source :  Surfrider Foundation Europe</em></p>
+
+		<p><strong>4) L’augmentation des sécheresses et des inondations</strong></p> 
+
+		<p>Dans les latitudes moyennes et hautes de l’hémisphère Nord, les spécialistes s’attendent à des précipitations accrues. En Californie, dans le bassin méditerranéen ainsi que dans les régions déjà arides, ils prévoient des sécheresses plus longues et plus fréquentes, réduisant le débit des fleuves. Cette conséquence de l’augmentation des sécheresses a un impact direct sur notre production d’électricité puisque les centrales nucléaires et thermiques sont refroidies par les cours d’eau.</p>
+
+		<img src="/Climmigre/download/images/dereglement.png" title="Carte des zones du monde les plus impactées par les inondations et la sécheresses" style="margin-left: 25%; width:500px"><p style="text-align:center; font-size:11px"><em> Les soleils rouges indiquent les zones de sécheresses principales sur la planète, les parapluies celles des inondations </em></p>
+
+</div>
+
+
+	</div>
+	<div id="exporttab" class="tabpanel" style="display:none">
+
+<br>
+		<div class="content">
+
+			<p><h4>Pour télécharger les données sur les catastrophes naturelles</h4></p>
+
+		<a href="/Climmigre/download/fichiers/worldCountries.zip"><button class="download">GEOJSON</button></a>
+		<a href="/Climmigre/download/fichiers/worldCountriesCSV.zip"><button class="download">CSV</button></a>
+	
+	</div>
+	</div>
+</div>
+
 
 		</body>
 
