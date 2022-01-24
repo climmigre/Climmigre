@@ -8,15 +8,15 @@ function selInit() {
 
 function selView(n, litag){
 
-	var catastropheview = "none";
 	var pollutionview = "none";
+	var catastropheview = "none";
 	var exportview = "none";
 	switch(n) {
 		case 1 : 
-			catastropheview = "inline";
+			pollutionview = "inline";
 			break;
 		case 2 :
-			pollutionview = "inline";
+			catastropheview = "inline";
 			break;
 		case 3 :
 			exportview = "inline";
@@ -26,8 +26,8 @@ function selView(n, litag){
 		break;
 	}
 
-	document.getElementById('catatab').style.display = catastropheview;
 	document.getElementById('pollutiontab').style.display = pollutionview;
+	document.getElementById('catatab').style.display = catastropheview;
 	document.getElementById('exporttab').style.display = exportview ;
 	var tabs = document.getElementById("tabs");
 	var ca = Array.prototype.slice.call(tabs.querySelector("li"));
