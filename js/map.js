@@ -39,14 +39,14 @@ var datalayer = L.geoJson(data ,{
 onEachFeature: function(feature, featureLayer) {
 
 var legende = "<h3>";
-    legende += feature.properties.pays;
-    legende += "</h3><strong>Catastrophes 1 : </strong>";
-    legende += feature.properties.catastrophe_1;
-    legende += (!feature.properties.description) ? '' : "<br><strong>Description 1 : </strong>" + feature.properties.description;
-    legende += (!feature.properties.catastrophe_2) ? '' : "<br><strong>Catastrophes 2 : </strong>" + feature.properties.catastrophe_2;
-    legende += (!feature.properties.description_2) ? '' : "<br><strong>Description 2 : </strong>" + feature.properties.description_2;
-    legende += (!feature.properties.catastrophe_3) ? '' : "<br><strong>Catastrophes 3 : </strong>" + feature.properties.catastrophe_3;
-    legende += (!feature.properties.description_3) ? '' : "<br><strong>Description 3 : </strong>" + feature.properties.description_3;
+    legende += (!feature.properties.pays) ? '' : feature.properties.pays;
+    legende += "</h3>" 
+    legende += (!feature.properties.catastrophe_1) ? '' : "<strong>" + feature.properties.catastrophe_1 + "</strong>";
+    legende += (!feature.properties.description) ? '' : "<br>"+ feature.properties.description;
+    legende += (!feature.properties.catastrophe_2) ? '' : "<br><strong>"+ feature.properties.catastrophe_2 +"</strong>" ;
+    legende += (!feature.properties.description_2) ? '' : "<br>" + feature.properties.description_2;
+    legende += (!feature.properties.catastrophe_3) ? '' : "<br><strong>" + feature.properties.catastrophe_3 + "</strong>" ;
+    legende += (!feature.properties.description_3) ? '' : "<br>" + feature.properties.description_3;
 
 //var legende = (!feature.properties.description) ?  'Pas de nom'  : 'nom : ' + feature.properties.description;
 
