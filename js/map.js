@@ -1,4 +1,13 @@
-var mymap= L.map('mapBox',{
+var mymap = null;
+
+
+$("document").ready(function () {
+    initializeMap();
+});
+
+function initializeMap () {
+
+ mymap= L.map('mapBox',{
 
         center: [48.859289, 2.342122],
         scrollWheelZoom: true,
@@ -55,3 +64,9 @@ featureLayer.bindTooltip(feature.properties.pays);}
 }).addTo(mymap);
 mymap.fitBounds(datalayer.getBounds());
 });
+
+}
+
+setInterval(function () {
+    mymap.invalidateSize();
+},100);
